@@ -23,6 +23,7 @@ set(qtmodules
   ViewControllers
   Volumes
   VolumeRendering # Volume Rendering depends of Volumes
+  PyOpenGLActor
   )
 if(Slicer_BUILD_CLI_SUPPORT)
   list(APPEND qtmodules
